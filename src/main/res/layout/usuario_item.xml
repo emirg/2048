@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/nombre_usuario_ranking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="19dp"
+        android:text="NombreEjemplo"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+        android:layout_toStartOf="@+id/puntaje_usuario_ranking"
+
+    <TextView
+        android:id="@+id/puntaje_usuario_ranking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="19dp"
+        android:text="200"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</RelativeLayout>

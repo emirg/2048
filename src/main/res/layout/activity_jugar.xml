@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/titulo_jugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:layout_margin="16dp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/boton_restart"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@id/titulo_jugar"
+        android:layout_below="@id/titulo_jugar"
+        android:layout_marginTop="-16dp"
+        android:clickable="true"
+        android:src="@drawable/restart" />
+
+    <ImageView
+        android:id="@+id/boton_volumen"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@id/titulo_jugar"
+        android:layout_below="@id/titulo_jugar"
+        android:layout_marginTop="-16dp"
+        android:clickable="true"
+        android:src="@drawable/volume" />
+
+    <TextView
+        android:id="@+id/texto_puntaje_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/titulo_jugar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/puntaje"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/puntaje_tv"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texto_puntaje_tv"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+
+
+        android:textAlignment="center"
+       />
+
+    <TextView
+        android:id="@+id/texto_puntajeRecord_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/titulo_jugar"
+        android:layout_marginEnd="38dp"
+        android:text="@string/record"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/puntajeRecord_tv"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/texto_puntaje_tv"
+        android:layout_marginEnd="34dp"
+        android:textAlignment="center"
+        android:text="0"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
+
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/puntaje_tv"
+        android:layout_marginTop="42dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/array_background"
+        android:gravity="center"
+        android:verticalSpacing="6dp"
+        android:stretchMode="columnWidth"
+        />
+
+
+
+    <!-- android:numColumns="auto_fit"      android:visibility="gone"   android:columnWidth="@dimen/activity_horizontal_margin" -->
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/juegoTerminado_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent"
+        android:paddingBottom="36dp"
+        android:text="@string/juegoTerminado"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="56sp" />
+
+    <TextView
+        android:id="@+id/recordNuevo_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="167dp"
+        android:text="@string/recordNuevo"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/puntajeNuevo_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recordNuevo_tv"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/boton_juegarDeNuevo_bv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="242dp"
+        android:background="@drawable/button_juegoterminado_background"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/jugarDeNuevo"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/boton_salirJuegoTerminado_bv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/button_juegoterminado_background"
+        android:text="@string/salir"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center" />
+</RelativeLayout>

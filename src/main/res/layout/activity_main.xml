@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/bienvenida_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/bienvenida"
+        android:textColor="@color/colorAccent"
+        android:textSize="48dp" />
+
+    <LinearLayout
+        android:id="@+id/menu_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="48dp"
+        android:layout_below="@id/bienvenida_tv">
+
+        <Button
+            android:text="@string/jugar"
+            android:id="@+id/jugar_boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/button_background"
+            android:padding="5dp"/>
+
+        <Button
+            android:text="@string/ranking"
+            android:id="@+id/ranking_boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/button_background"
+            android:padding="5dp"
+            />
+
+        <Button
+            android:text="@string/salir"
+            android:id="@+id/salir_boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:background="@drawable/button_background"
+            android:padding="5dp"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dificultad_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/menu_ll"
+        android:text="Dificultad"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="36dp" />
+
+    <ImageView
+        android:id="@+id/larrow_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/bienvenida_tv"
+        android:layout_below="@+id/dificultad_tv"
+        android:clickable="true"
+        android:src="@drawable/larrow" />
+
+    <TextView
+        android:id="@+id/nivel_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_below="@+id/dificultad_tv"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="36dp" />
+
+    <ImageView
+        android:id="@+id/rarrow_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/bienvenida_tv"
+        android:layout_below="@+id/dificultad_tv"
+        android:clickable="true"
+        android:src="@drawable/rarrow" />
+
+</RelativeLayout>

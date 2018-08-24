@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">2048</string>
+
+    <!--Strings para la actividad de Log in / Registro-->
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="inicia_sesion">Iniciar Sesión</string>
+    <string name="registrar">Registrar</string>
+
+
+    <!--Mensajes de error en Log in o Registro-->
+    <string name="errorLogin">Nombre de Usuario o Contraseña no valida</string>
+    <string name="errorRegis">Nombre de Usuario ya existe</string>
+    <string name="errorCampoIncompleto">Debe colocar un Nombre de Usuario y Contraseña</string>
+    <string name="errorActualizarPuntaje">No se pudo actualizar el puntaje del jugador</string>
+
+    <!--Strings para la actividad Main-->
+    <string name="bienvenida">Bienvenido</string>
+    <string name="jugar">Jugar</string>
+    <string name="ranking">Ranking</string>
+    <string name="salir">Salir</string>
+    <string name="nivel3x3">3x3</string>
+    <string name="nivel4x4">4x4</string>
+    <string name="nivel8x8">8x8</string>
+
+
+    <string name="record">Record</string>
+    <string name="puntaje">Puntaje</string>
+    <string name="recordNuevo">Record nuevo:</string>
+
+
+    <!--String para la actividad JuegoTerminado-->
+    <string name="juegoTerminado">Juego Terminado!</string>
+    <string name="jugarDeNuevo">Jugar otra vez</string>
+
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    
+    <TextView
+        android:background="@drawable/number_square"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/text_square_tv"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <!--40 DP > 8X8 -->
+    <!--80 DP > 4X4 -->
+    <!--40 DP > 8X8 -->
+
+</LinearLayout>
